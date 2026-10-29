@@ -17,6 +17,7 @@ You can check [my own Maloja page](https://maloja.krateng.ch) as an example inst
 ## Table of Contents
 * [Features](#features)
 * [How to install](#how-to-install)
+	* [One-Click Deploy](#one-click-deploy)
 	* [Extras](#extras)
 * [How to use](#how-to-use)
 	* [Basic control](#basic-control)
@@ -71,6 +72,11 @@ The modified run command with these variables would look like:
 ```console
 	docker run -e PUID=1000 -e PGID=1001 -p 42010:42010 -v $PWD/malojadata:/mljdata -e MALOJA_DATA_DIRECTORY=/mljdata krateng/maloja
 ```
+
+
+### One-Click Deploy
+
+[![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/Maloja/)
 
 
 ### Extras
